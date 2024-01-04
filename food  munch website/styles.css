@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+.manu{
+
+    background-image: url(picture.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    color: black;
+    font-size: 30px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5em 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 10px;
+    font-weight: bold;
+   
+}
+.manu1{
+
+    background-color: beige;
+    
+}
+
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    width: 30%;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.food-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-item h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
