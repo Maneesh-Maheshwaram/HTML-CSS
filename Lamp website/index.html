@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+
+        <nav>
+            <img src="menu.png" class="menu-img">
+            <img src="logo.png" class="logo">
+           <ul>
+            <li><a href="">Latest</a></li>
+            <li><a href="">modern</a></li>
+            <li><a href="">contemporary</a></li>
+            <li><a href="">Affordable</a></li>
+           </ul>
+           <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+
+        <div class="lamp-container">
+            <img src="lamp.png" class="lamp">
+            <img src="light.png" class="light" id="light">
+
+        </div>
+
+        <div class="text-container">
+
+            <h1>Latest <br>in Brighten</h1>
+            <p>Hanging ceiling lights are one of the best ways to add a style element to your contemporary house. Chandeliers might have always been the choice since the royal era when it comes to mansions and palaces. However, LED hanging lights continue to steal the show, whether at home or in restaurants. <i class="maneesh"> </span><b>art by Maneesh</b><span></span></i></p>
+
+            <a href=""> Check all collections</a>
+
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function toggleBtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+    
+</body>
+</html>
